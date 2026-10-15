@@ -1,0 +1,23 @@
+[
+  {
+    "key": "luxury-perfumes",
+    "name": "Luxury Perfumes",
+    "tag": "Eau de Parfum",
+    "image": "assets/signature-lineup.webp",
+    "blurb": "Eau de parfum, extrait and the Privé Discovery Box — made for confidence and gifting."
+  },
+  {
+    "key": "room-spray",
+    "name": "Room Spray",
+    "tag": "Room Spray",
+    "image": "assets/room-ritual-lineup.webp",
+    "blurb": "Camphor room sprays that refresh entryways, bedrooms and everyday spaces."
+  },
+  {
+    "key": "agarbatti",
+    "name": "Agarbatti",
+    "tag": "Masala Agarbatti",
+    "image": "assets/agarbatti-lineup.webp",
+    "blurb": "Premium masala agarbatti for puja, meditation and calm home rituals — Aahuti, Pushpanjali, Samidha and Somdhara."
+  }
+]

@@ -1,0 +1,285 @@
+[
+  {
+    "id": "v-king",
+    "name": "V-King",
+    "fullName": "V-King Eau de Parfum",
+    "price": 799,
+    "category": "Luxury Perfumes",
+    "tag": "Eau de Parfum",
+    "slug": "v-king",
+    "image": "assets/v-king.webp",
+    "description": "Dark. Bold. Regal.",
+    "published": true
+  },
+  {
+    "id": "bright",
+    "name": "Bright",
+    "fullName": "Bright Eau de Parfum",
+    "price": 799,
+    "category": "Luxury Perfumes",
+    "tag": "Eau de Parfum",
+    "slug": "bright",
+    "image": "assets/bright.webp",
+    "description": "Clean. Open. Effortless.",
+    "published": true
+  },
+  {
+    "id": "tobacco-oudh",
+    "name": "Tobacco Oudh",
+    "fullName": "Tobacco Oudh Eau de Parfum",
+    "price": 899,
+    "category": "Luxury Perfumes",
+    "tag": "Eau de Parfum",
+    "slug": "tobacco-oudh",
+    "image": "assets/tobacco-oudh.webp",
+    "description": "Deep. Warm. Distinct.",
+    "published": true
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla",
+    "fullName": "Vanilla Eau de Parfum",
+    "price": 799,
+    "category": "Luxury Perfumes",
+    "tag": "Eau de Parfum",
+    "slug": "vanilla",
+    "image": "assets/vanilla.webp",
+    "description": "Soft. Creamy. Unforgettable.",
+    "published": true
+  },
+  {
+    "id": "royal",
+    "name": "Royal",
+    "fullName": "Royal Extrait de Parfum",
+    "price": 1499,
+    "category": "Luxury Perfumes",
+    "tag": "Extrait de Parfum",
+    "slug": "royal",
+    "image": "assets/royal-extrait.webp",
+    "description": "Warm. Refined. Elevated.",
+    "published": true
+  },
+  {
+    "id": "discovery",
+    "name": "Discovery Box",
+    "fullName": "Privé Discovery Box",
+    "price": 599,
+    "category": "Luxury Perfumes",
+    "tag": "Discovery Box",
+    "slug": "discovery",
+    "image": "assets/discovery-detail.png",
+    "description": "Try, explore, choose.",
+    "published": true
+  },
+  {
+    "id": "gulab",
+    "name": "Gulab Camphor",
+    "fullName": "Gulab Camphor Room Spray",
+    "price": 299,
+    "category": "Room Spray",
+    "tag": "Room Spray",
+    "slug": "gulab-camphor",
+    "image": "assets/gulab-camphor.webp",
+    "description": "Soft floral ritual.",
+    "published": true
+  },
+  {
+    "id": "catchy",
+    "name": "Catchy Camphor",
+    "fullName": "Catchy Camphor Room Spray",
+    "price": 299,
+    "category": "Room Spray",
+    "tag": "Room Spray",
+    "slug": "catchy-camphor",
+    "image": "assets/catchy-camphor.webp",
+    "description": "Freshened everyday spaces.",
+    "published": true
+  },
+  {
+    "id": "chandan",
+    "name": "Chandan Camphor",
+    "fullName": "Chandan Camphor Room Spray",
+    "price": 299,
+    "category": "Room Spray",
+    "tag": "Room Spray",
+    "slug": "chandan-camphor",
+    "image": "assets/chandan-camphor.webp",
+    "description": "A centred home mood.",
+    "published": true
+  },
+  {
+    "id": "kesar",
+    "name": "Kesar Chandan",
+    "fullName": "Kesar Chandan Camphor Room Spray",
+    "price": 299,
+    "category": "Room Spray",
+    "tag": "Room Spray",
+    "slug": "kesar-chandan",
+    "image": "assets/kesar-chandan-camphor.webp",
+    "description": "Warm, rich atmosphere.",
+    "published": true
+  },
+  {
+    "id": "agarbatti-aahuti",
+    "name": "Aahuti",
+    "nameLocal": "आहुति",
+    "fullName": "Aahuti Premium Masala Agarbatti",
+    "price": 799,
+    "category": "Agarbatti",
+    "tag": "Masala Agarbatti",
+    "slug": "aahuti-agarbatti",
+    "image": "assets/agarbatti-aahuti-1.webp",
+    "images": [
+      "assets/agarbatti-aahuti-1.webp",
+      "assets/agarbatti-aahuti-2.webp",
+      "assets/agarbatti-aahuti-3.webp"
+    ],
+    "tagline": "Dhoopam Samarpayami",
+    "description": "A sacred dhoop offering for daily puja.",
+    "quote": "I am the pure fragrance of the earth.",
+    "weight": "100 g",
+    "details": "Premium masala agarbatti crafted using the 500-year-old traditional method. Made with natural wood powder, pure essential oils and sacred herbs — no charcoal, no harmful chemicals. Made in Bharat with devotion.",
+    "howTo": [
+      "Light the tip of the incense stick.",
+      "Gently blow out the flame.",
+      "Place it on an incense holder and let the luxury spread."
+    ],
+    "status": "available",
+    "published": true
+  },
+  {
+    "id": "agarbatti-pushpanjali",
+    "name": "Pushpanjali",
+    "nameLocal": "पुष्पांजलि",
+    "fullName": "Pushpanjali Premium Masala Agarbatti",
+    "price": 799,
+    "category": "Agarbatti",
+    "tag": "Masala Agarbatti",
+    "slug": "pushpanjali-agarbatti",
+    "image": "assets/agarbatti-pushpanjali-1.webp",
+    "images": [
+      "assets/agarbatti-pushpanjali-1.webp",
+      "assets/agarbatti-pushpanjali-2.webp",
+      "assets/agarbatti-pushpanjali-3.webp"
+    ],
+    "tagline": "Sugandhim Pushtivardhanam",
+    "description": "A floral offering made with love.",
+    "quote": "If you offer a leaf, a flower with love, I will accept it.",
+    "weight": "100 g",
+    "details": "Premium masala agarbatti crafted using the 500-year-old traditional method. Made with natural wood powder, pure essential oils and sacred herbs — no charcoal, no harmful chemicals. Made in Bharat with devotion.",
+    "howTo": [
+      "Light the tip of the incense stick.",
+      "Gently blow out the flame.",
+      "Place it on an incense holder and let the luxury spread."
+    ],
+    "status": "available",
+    "published": true
+  },
+  {
+    "id": "agarbatti-samidha",
+    "name": "Samidha",
+    "nameLocal": "समिधा",
+    "fullName": "Samidha Premium Masala Agarbatti",
+    "price": 799,
+    "category": "Agarbatti",
+    "tag": "Masala Agarbatti",
+    "slug": "samidha-agarbatti",
+    "image": "assets/agarbatti-samidha-1.webp",
+    "images": [
+      "assets/agarbatti-samidha-1.webp",
+      "assets/agarbatti-samidha-2.webp",
+      "assets/agarbatti-samidha-3.webp"
+    ],
+    "tagline": "Shanti Samarpayami",
+    "description": "An offering of peace and calm.",
+    "quote": "Whatever you offer with devotion, it reaches the Divine.",
+    "weight": "100 g",
+    "details": "Premium masala agarbatti crafted using the 500-year-old traditional method. Made with natural wood powder, pure essential oils and sacred herbs — no charcoal, no harmful chemicals. Made in Bharat with devotion.",
+    "howTo": [
+      "Light the tip of the incense stick.",
+      "Gently blow out the flame.",
+      "Place it on an incense holder and let the luxury spread."
+    ],
+    "status": "available",
+    "published": true
+  },
+  {
+    "id": "agarbatti-somdhara",
+    "name": "Somdhara",
+    "nameLocal": "सोमधारा",
+    "fullName": "Somdhara Premium Masala Agarbatti",
+    "price": 799,
+    "category": "Agarbatti",
+    "tag": "Masala Agarbatti",
+    "slug": "somdhara-agarbatti",
+    "image": "assets/agarbatti-somdhara-1.webp",
+    "images": [
+      "assets/agarbatti-somdhara-1.webp",
+      "assets/agarbatti-somdhara-2.webp",
+      "assets/agarbatti-somdhara-3.webp"
+    ],
+    "tagline": "Pushpam Samarpayami",
+    "description": "A serene, flowing prayer ritual.",
+    "quote": "May every breath you take become a prayer.",
+    "weight": "100 g",
+    "details": "Premium masala agarbatti crafted using the 500-year-old traditional method. Made with natural wood powder, pure essential oils and sacred herbs — no charcoal, no harmful chemicals. Made in Bharat with devotion.",
+    "howTo": [
+      "Light the tip of the incense stick.",
+      "Gently blow out the flame.",
+      "Place it on an incense holder and let the luxury spread."
+    ],
+    "status": "available",
+    "published": true
+  },
+  {
+    "id": "agarbatti-noor-al-oudh",
+    "name": "Noor Al Oudh",
+    "fullName": "Noor Al Oudh Oudh Agarbatti",
+    "price": 0,
+    "category": "Agarbatti",
+    "tag": "Oudh Agarbatti",
+    "slug": "noor-al-oudh-agarbatti",
+    "image": "assets/agarbatti-noor-al-oudh.webp",
+    "images": [
+      "assets/agarbatti-noor-al-oudh.webp"
+    ],
+    "tagline": "Divine Light",
+    "description": "Oudh agarbatti inspired by divine light.",
+    "status": "coming-soon",
+    "published": true
+  },
+  {
+    "id": "agarbatti-layl-al-sahra",
+    "name": "Layl Al Sahra",
+    "fullName": "Layl Al Sahra Oudh Agarbatti",
+    "price": 0,
+    "category": "Agarbatti",
+    "tag": "Oudh Agarbatti",
+    "slug": "layl-al-sahra-agarbatti",
+    "image": "assets/agarbatti-layl-al-sahra.webp",
+    "images": [
+      "assets/agarbatti-layl-al-sahra.webp"
+    ],
+    "tagline": "Desert Night",
+    "description": "Oudh agarbatti inspired by a desert night.",
+    "status": "coming-soon",
+    "published": true
+  },
+  {
+    "id": "agarbatti-majlis-al-oudh",
+    "name": "Majlis Al Oudh",
+    "fullName": "Majlis Al Oudh Oudh Agarbatti",
+    "price": 0,
+    "category": "Agarbatti",
+    "tag": "Oudh Agarbatti",
+    "slug": "majlis-al-oudh-agarbatti",
+    "image": "assets/agarbatti-majlis-al-oudh.webp",
+    "images": [
+      "assets/agarbatti-majlis-al-oudh.webp"
+    ],
+    "tagline": "Amber Majlis",
+    "description": "Amber and oudh for the gathering.",
+    "status": "coming-soon",
+    "published": true
+  }
+]

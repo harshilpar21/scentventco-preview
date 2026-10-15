@@ -1,0 +1,8 @@
+{
+  "name": "scentventco-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scentvent Co. fragrance website with a lightweight local content API.",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=18"}
+}

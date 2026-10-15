@@ -528,5 +528,26 @@
     closeMenu();
   });
 
+  // Mobile bottom bar: Shop + WhatsApp, always within thumb reach on phones.
+  (() => {
+    const dock = document.createElement('nav');
+    dock.className = 'mobile-dock';
+    dock.setAttribute('aria-label', 'Quick actions');
+    const onShop = /products\.html$/.test(location.pathname);
+    const waText = encodeURIComponent('Hi Scentvent Co., I would like to know more about your fragrances.');
+    dock.innerHTML = `<a class="dock-shop" href="${onShop ? '#shop' : 'products.html'}">${onShop ? 'Categories' : 'Shop now'}</a><a class="dock-wa" href="https://wa.me/${WHATSAPP_NUMBER}?text=${waText}" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>WhatsApp</a>`;
+    document.body.appendChild(dock);
+    const shopTarget = onShop && (document.querySelector('.products-shop-section') || document.querySelector('.filter-bar'));
+    if (shopTarget && !shopTarget.id) shopTarget.id = 'shop';
+    const sync = () => {
+      const blocked = mobileMenu?.classList.contains('is-open') || document.querySelector('.qv.is-open');
+      dock.classList.toggle('is-hidden', !!blocked || window.scrollY < 120);
+    };
+    window.addEventListener('scroll', sync, { passive: true });
+    document.addEventListener('click', () => setTimeout(sync, 60));
+    document.addEventListener('keydown', () => setTimeout(sync, 60));
+    sync();
+  })();
+
   updateScrollUI();
 })();
